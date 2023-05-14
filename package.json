@@ -1,6 +1,10 @@
 {
-  "name": "configcat-react",
+  "name": "@aleixmorgadas/configcat-react-sdk",
   "version": "2.3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleixmorgadas/configcat-react-sdk.git"
+  },
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p tsconfig.build.esm.json && gulp esm",
